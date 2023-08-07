@@ -1,4 +1,3 @@
-
 Feature: Crear un Usuario
 
   Background:
@@ -12,15 +11,4 @@ Feature: Crear un Usuario
     And def username = datos.username
 
 
-
-
-#  Scenario Outline: Post a user # Outline sirve para pasar conjunto de datos
-#    When method post
-#    Then status 201
-#
-#    Examples:
-#      |name|job|
-#      |luis|chef|
-#      |sofia|ceo|
-#      |leonela|lawyer|
 
