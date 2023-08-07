@@ -1,0 +1,3026 @@
+11:47:12.247 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+11:47:12.401 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+11:47:13.506 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:47:13.814 [main]  DEBUG com.intuit.karate - response time in milliseconds: 308
+1 < 200
+1 < Date: Thu, 16 Feb 2023 16:47:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 5887
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=CH%2BTARSTw4S7wicaSZVTfRIysPQuM6SXbjSu8Ab7PT3GfkrSS9OUKpp%2BycwpAgyZ1muaLJx1r17QHN3MiNlA6epLJHs76QZAl1IrRXygvoXbiVwy5jMwR%2B9S2g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a7c3908c1a9afd-GYE
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+11:47:14.371 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+12:30:31.138 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:30:31.322 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676568631322
+12:30:31.354 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+12:30:32.770 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:30:33.589 [main]  DEBUG com.intuit.karate - response time in milliseconds: 819
+1 < 200
+1 < Date: Thu, 16 Feb 2023 17:30:33 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LqvjU3hC18nkFaYInMN1AtGcmA7DtDN3Lt1bE%2BHfAR1LJiMr5NHHHa2wmMOAkJKXiRN9Wvg9jJ1mf4QeuNMctNuTEBJxmLfOVie1U5HSYk%2Bv8WTZP%2BOkmB9myw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a803063fe69af7-GYE
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+12:30:34.213 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+16:37:38.330 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+16:37:38.539 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676583458539
+16:37:38.563 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+16:37:40.539 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+16:37:41.540 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1001
+1 < 201
+1 < Date: Thu, 16 Feb 2023 21:37:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-Y/S5AkwawjiufD7lRtrr5MimBGY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8Ingz5oW4m73bUEfMN6iL%2BtBSaCRDQWF7SfenAVv36XXOt1BdGdwGGqL1fdI27Vs3POh6D7%2B7C6%2B1JoRGgnyTxkrI1GHvvUqpbHEaZoNIWlwl44w7eBkfxXloA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a96d0b3f9b9af8-GYE
+{"name":"morpheus","job":"leader","id":"65","createdAt":"2023-02-16T21:37:41.914Z"}
+
+16:37:42.539 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+16:43:05.679 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+16:43:05.977 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676583785977
+16:43:06.009 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+16:43:08.139 [main]  DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:43:09.109 [main]  DEBUG com.intuit.karate - response time in milliseconds: 970
+1 < 204
+1 < Date: Thu, 16 Feb 2023 21:43:09 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TaVmNUwYDJa6VMdtSLeIS9mYERdgMFJwevsKV1LiwHZRYeWiekeIzdj1KJ5SnYhN9aqOsKSWZjm%2BrgnsqahDL5WX%2FrL5rE%2BbOyo%2F5zcW%2BTqownrtb5i06l6UVg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9750aba819afd-GYE
+
+
+16:43:10.519 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/delete/user-delete.feature
+16:46:47.925 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+16:46:48.201 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676584008201
+16:46:48.220 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+16:46:50.320 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+16:46:50.980 [main]  DEBUG com.intuit.karate - response time in milliseconds: 650
+1 < 200
+1 < Date: Thu, 16 Feb 2023 21:46:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-etxKP7b/oEZQKxiuW1VkXfNbvhY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tPrx8hc7v%2BLYy%2FvN7oqzxKdobk19BS9qjOu6rjfXAfchVonxu5F%2BDcZcsPIazsgHNoMeiygL%2F9zC1%2B0PkUlD1g9fFRZiTyRySWimY7RKvVI83mU7%2F0Iz%2Fb39SA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a97a759ceb9af8-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T21:46:51.421Z"}
+
+16:46:51.976 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/put/user-put.feature
+16:51:52.114 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+16:51:52.384 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676584312382
+16:51:52.404 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+16:51:54.404 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+16:51:55.304 [main]  DEBUG com.intuit.karate - response time in milliseconds: 890
+1 < 200
+1 < Date: Thu, 16 Feb 2023 21:51:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-LnLOHqcOiJFflkisDM1cSN0w8fM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=U7HkgZtftK9YTMtDmbgIeNbdSR7hsiHcKxtNf3l%2FR87b7K1Bk5A%2BnB3oU%2B%2FZ5ZUjM1ISR5%2BmS1PwU%2B0uXN%2F6HnuumyuOnOntJWZqqjuyyBwXO4Fo0SZIR8YAlg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a981e319be9af7-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T21:51:55.725Z"}
+
+16:51:56.474 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/put/user-put.feature
+17:08:31.189 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:08:31.465 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676585311457
+17:08:33.639 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+17:08:34.669 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1030
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:08:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-OgH6DiZCV6/uXNhAY7FbtwqGC7w"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ga3ufAahUes%2BrKa%2B5bTxzwathu48ivA89gRiht41S9%2B%2F0sXhPR2%2FpI3JA4WfWt53ESjEekToQO8TEgPy9tkhXWyYtyDvVj9yVEc17RwInuECcdfvoN3HOI1QlQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a99a4939949afb-GYE
+{"name":"morpheus","job":"leader","id":"290","createdAt":"2023-02-16T22:08:35.116Z"}
+
+17:08:34.699 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"juan"}
+
+17:08:35.219 [main]  DEBUG com.intuit.karate - response time in milliseconds: 520
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:08:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 65
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"41-opzl/vBtKU7dkpCdX1kL4ZYnSN4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rfGwGxN8JwGSGVSkxBvppLBr0T65rHZ2mneC3ISih5deOCdHGEqaxS1O95p4uNGT%2FJ9IlQd3Q5%2BmFoevFWW4iO4BthG3C80ig6K%2BLWsYmQ3ift4VdbW2xKFHhg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a99a4cfc0f325a-GYE
+{"name":"juan","id":"239","createdAt":"2023-02-16T22:08:35.703Z"}
+
+17:08:35.249 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 31
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"&^%&*","job":"leader"}
+
+17:08:35.785 [main]  DEBUG com.intuit.karate - response time in milliseconds: 536
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:08:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 81
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"51-UOcMqmShYGWDFYfqDI9sDnj3maQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=r6%2BSYi8fUOwYAAWihvYZsYYQUqluQKevcnaoFXkzLAylgPj5aEucJGiwn4VCrAhQnQFS%2BQzB3Zf%2FpeNam8%2BGn%2FqylfSQerpP0kvmdklwIjnfCtp9maj1iwUbZg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a99a507e879b04-GYE
+{"name":"&^%&*","job":"leader","id":"561","createdAt":"2023-02-16T22:08:36.272Z"}
+
+17:08:37.001 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:13:37.841 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:13:38.122 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676585618122
+17:13:38.151 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 5
+17:13:40.111 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+17:13:40.944 [main]  DEBUG com.intuit.karate - response time in milliseconds: 833
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:13:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-jWLRo63eyjyJTZ6HI5m3/pvr+kg"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K9aaau5exFSXcMnB7ufAIoEGQYlLThCqvCa%2B2pSlDY54SPXILoRPAmKcTC%2BImAPDEZX%2Fr9bAvvbuk36LpxUCbXLrskCMsRtIrG4zHPy7oU%2FMFyslrLlSLUuLkQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9a1c3d86b9af8-GYE
+{"name":"morpheus","job":"leader","id":"128","createdAt":"2023-02-16T22:13:41.382Z"}
+
+17:13:42.013 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:14:16.747 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:14:17.043 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676585657043
+17:14:17.069 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 6
+17:14:19.058 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"morpheus","job":"leader"}
+
+17:14:19.936 [main]  DEBUG com.intuit.karate - response time in milliseconds: 870
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:14:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-watNFixeMjKDG0scWwZrWYuoxd0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AJ%2Fwh%2FVNRQPnS38Wtsw19BSU5D6YfrbpiKZOtp9sf0xnFps%2FnUQo7iI%2FLerqSBJHpcvA9GJj3mp8p9miKlTu7IHZTLWanKqcPfAWTcdHjLHAyEIZFms%2FSAP3mQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9a2b6fd039af7-GYE
+{"name":"morpheus","job":"leader","id":"414","createdAt":"2023-02-16T22:14:20.336Z"}
+
+17:14:21.031 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:18:36.267 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:18:36.538 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/users/post/user-post.feature - mismatched input 'd' expecting <EOF>
+17:19:46.984 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:19:47.289 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676585987289
+17:19:47.321 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 9
+17:19:49.378 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"diany","job":"designer"}
+
+17:19:50.569 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1191
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:19:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-3uFFNEvQXXSnLIDve+9E8V/c5dU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ef7APFnWY9UJaIvaNAUAFOVVbSM9NmeguHeLPmH%2B6MrO83ZF2MqORMM2CnLk4QwCtmLlaNMl3unZLDk5Bs6ESpO1oMkC2shSVFG0WsPEct4Y2rlE6zejKfrm5w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9aac99d1c9b04-GYE
+{"name":"diany","job":"designer","id":"690","createdAt":"2023-02-16T22:19:51.005Z"}
+
+17:19:51.788 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:27:14.764 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:27:15.030 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676586435030
+17:27:15.058 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 12
+17:27:16.933 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+17:27:17.774 [main]  DEBUG com.intuit.karate - response time in milliseconds: 833
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:27:18 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 51
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"33-dthUROH/2G53ZSWa6fXWqa8yvSY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TVoey3PAe5QOgSNnfG0tyiClOvhG83lkkiyS%2BXWssJu5iq0QInVAhaO6cPtuRL47IwOoRzU3UuhMIrBCiU0bBYJPgmK52eB633Y5DSg7bHuDRh%2FAGn5DmQwo1g%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9b5b50e753262-GYE
+{"id":"807","createdAt":"2023-02-16T22:27:18.200Z"}
+
+17:27:18.758 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:29:28.484 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:29:28.788 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676586568780
+17:29:28.812 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+17:29:30.844 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"diany","job":"designer"}
+
+17:29:31.508 [main]  DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:29:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-NIcaHNuuHl1f6WkNqIKguSWJGKE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dP1UzwZ6ivAHUiBfUdw2Udop7tSusvX169Zd5%2BzgBl%2Bpt6HI0N%2Braz8jZ%2FW7oIVSafcVxgB61j3h86vms8v37Usnqt21NQ2IquRPovsI3xG9Onpdi9n61%2FjHOA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9b8f90ab59af8-GYE
+{"name":"diany","job":"designer","id":"653","createdAt":"2023-02-16T22:29:31.962Z"}
+
+17:29:32.718 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:31:22.783 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:31:23.047 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676586683047
+17:31:23.071 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+17:31:25.002 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 31
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"leader"}
+
+17:31:25.815 [main]  DEBUG com.intuit.karate - response time in milliseconds: 813
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:31:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 81
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"51-RcqWUTOFBg4d1bgwMeUeb6R9ZlQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Qm3m93Or0dG7JpR4290WXQfNjtAQj3t5ReriDqCGKr1nzK3o5u4slvoaRTUZl6BmyLweWMjpC16fhrNjSv98as9CocqFgtmxIfFKH5uP8pE5cq6S0SP%2FzCDLxw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9bbc29d193262-GYE
+{"name":"jaime","job":"leader","id":"464","createdAt":"2023-02-16T22:31:26.204Z"}
+
+17:31:26.936 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:37:39.795 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:37:40.095 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676587060085
+17:37:40.126 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+17:37:42.320 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 28
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"luis","job":"chef"}
+
+17:37:43.320 [main]  DEBUG com.intuit.karate - response time in milliseconds: 995
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:37:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 78
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4e-j0QnnX4zSIRKeKSvhqLVOO5RPoU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DViZ0nMbceWcYc6o7QvkVUeJ0OXoAKzLPFXgqqkFFmomguTVr7xM80QFPxU88X8Eev%2Fl2XlIFnf4mlCbJE7oEakN8Shg23Dmk5yaQKa5n1iMyFWC1L3zvi1t7w%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9c4fa983b9af8-GYE
+{"name":"luis","job":"chef","id":"338","createdAt":"2023-02-16T22:37:43.733Z"}
+
+17:37:43.325 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+17:37:43.365 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 28
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"sofia","job":"ceo"}
+
+17:37:44.326 [main]  DEBUG com.intuit.karate - response time in milliseconds: 961
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:37:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 78
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4e-Tm7TZ6wLADPdhFYGgg8rms60T5s"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MapJqjN6GYX8MsUBxwy7J8pPjHOaTIEwxzalNUy3grmQtc%2FWb26iociOdhceacOvmPM%2BcFDFyONqftei4kqvRAKgC3K1kKlt%2B4OGfGYPprY2KBN6B%2BTd%2F0Ldtg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9c4fe6c6c9b04-GYE
+{"name":"sofia","job":"ceo","id":"442","createdAt":"2023-02-16T22:37:44.409Z"}
+
+17:37:44.333 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 17
+17:37:44.358 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"leonela","job":"lawyer"}
+
+17:37:44.872 [main]  DEBUG com.intuit.karate - response time in milliseconds: 514
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:37:45 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-fYdEM1SU+g5jUiUYN5YinJWZBU0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DcQsMCaWLwc%2BadfWl6eZ5N4SpGy8UKTM74wS5%2FWpMte6cfs0ahhbpIfjWad9GVr5R5TUO%2Bc1M%2FSlb2xbuwTjjJyov0AxJ%2BSR1XF5TezTWCV7wkvBkegmCjg7EQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9c50489a89af8-GYE
+{"name":"leonela","job":"lawyer","id":"933","createdAt":"2023-02-16T22:37:45.316Z"}
+
+17:37:46.060 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+17:42:33.611 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:42:33.884 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676587353884
+17:42:33.916 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+17:42:35.997 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+17:42:36.707 [main]  DEBUG com.intuit.karate - response time in milliseconds: 702
+1 < 200
+1 < Date: Thu, 16 Feb 2023 22:42:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-0dxRh787HeOS9eZl7Fng01DHibg"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PUOunYDWPjwU5IQs0G%2BCXTGq1DGE1jRzn6rPQTIV6aDY%2FOjdOxuhVwdY2KO2B6l7RkSt0fsHJTMMaiTQb64bsl2CxGqzpWCbPDsW4EeRFwgvjI00XsODoYzqCQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a9cc246bfe3262-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T22:42:37.140Z"}
+
+17:42:36.810 [main]  ERROR com.intuit.karate - src/test/java/users/put/user-put.feature:7
+And match $.name == 'jaime' # el $,name se debe validar en el json path
+js failed:
+>>>>
+01: 'jaime' # el $,name se debe validar en el json path
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ; but found error
+'jaime' # el $,name se debe validar en el json path
+        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2143)
+- com.intuit.karate.core.ScenarioEngine.match(ScenarioEngine.java:1741)
+- com.intuit.karate.core.ScenarioEngine.matchResult(ScenarioEngine.java:174)
+
+src/test/java/users/put/user-put.feature:7
+17:42:37.843 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/users/put/user-put.feature
+17:43:39.307 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:43:39.572 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676587419572
+17:43:39.620 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+17:43:41.576 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+17:43:42.506 [main]  DEBUG com.intuit.karate - response time in milliseconds: 922
+1 < 200
+1 < Date: Thu, 16 Feb 2023 22:43:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-fQh57L0FHRGh6oWYvwX6cPxuY24"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dNRR8jS6EkXXuAnDB5ptkHGKZ4LlfjEtIb1kL4sD%2Bzr6TB9MGvvTUo6L5zKdQRnQER3oAek6g%2BLUFID8lTj358pDFKhLmAIBtjaf%2BNA89X%2B08sERlu0SQGOiOQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a9cdbedcea9afe-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T22:43:42.949Z"}
+
+17:43:42.591 [main]  ERROR com.intuit.karate - src/test/java/users/put/user-put.feature:8
+And match $.job == 'teacher'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'pilot'
+  'teacher'
+
+src/test/java/users/put/user-put.feature:8
+17:43:43.646 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/users/put/user-put.feature
+17:45:47.246 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:45:47.514 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676587547514
+17:45:49.538 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+17:45:50.722 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1184
+1 < 200
+1 < Date: Thu, 16 Feb 2023 22:45:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-wqXS7O5aIeHASYhQYLIuf7/bf7I"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BgSzWQ398CX2mP8d7cnNhhcGekNLn4QcWBW6XB%2BzpICrBfQZJqhMnSa%2FjrF0SPnUi95XdBL9T6nn3bbSc9VEIp7VIF0v8uRKuSAzNTo4my7Eelf4RT6OgtgkDw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a9d0dffe849b04-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T22:45:51.131Z"}
+
+17:45:50.785 [main]  ERROR com.intuit.karate - src/test/java/users/put/user-put.feature:10
+And match $.job == 'teacher'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'pilot'
+  'teacher'
+
+src/test/java/users/put/user-put.feature:10
+17:45:50.801 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://reqres.in/api/users/2
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 30
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jaime","job":"pilot"}
+
+17:45:51.524 [main]  DEBUG com.intuit.karate - response time in milliseconds: 723
+1 < 200
+1 < Date: Thu, 16 Feb 2023 22:45:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"45-ZiBpfuS1QlM8DHkpS5FDa0lYMIw"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mXanxid%2F4sO%2FGaoha%2FufOIB56cVuI7hYFqWFSdt8w8XQ2SmEdf7qoW87m%2BeqN3SLsNsUNijCxRgC0XtkVxeqiojOW03yMBeCtcz2Swz3krpBXtq%2Bbd88%2Bkzqhg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79a9d0e4d8069b04-GYE
+{"name":"jaime","job":"pilot","updatedAt":"2023-02-16T22:45:51.764Z"}
+
+17:45:52.725 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/users/put/user-put.feature
+17:50:05.241 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+17:50:05.493 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676587805493
+17:50:05.525 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 14
+17:50:07.566 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"cecilia","job":"teacher"}
+
+17:50:08.561 [main]  DEBUG com.intuit.karate - response time in milliseconds: 995
+1 < 201
+1 < Date: Thu, 16 Feb 2023 22:50:09 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-TS83suD32IAicQmwTW33bLnjhX0"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6y7DTtkhGTYzci0VwP0h%2B1sUdJKdcPX34A9gE4Un5qGR%2F7LtR%2BFXGIAuwdWCZpMdH0XXuo5Ydw4C2S4WI5RFXfka12Di82Rb066DbSVCJRusxmQbxwaCi%2FmYnw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9d72bafe03262-GYE
+{"name":"cecilia","job":"teacher","id":"799","createdAt":"2023-02-16T22:50:08.931Z"}
+
+17:50:09.669 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+18:12:17.272 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:12:17.568 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676589137568
+18:12:17.616 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+18:12:19.620 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jose","job":"QA"}
+
+18:12:20.654 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1034
+1 < 201
+1 < Date: Thu, 16 Feb 2023 23:12:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 76
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4c-XjcTFQ3uvCPx13kzW5UEGcGS+/4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=L56i8IKn4rBsRkmiFutEVvDYkDtp%2B02Ep7UPKf74e05kSRB38DISjK%2BZJ6UvdW5d4AyyoqRrE40GrRnXzhnD54T7c5ZNb3MXkx0JUQDM0Qq5Iub%2Bo3kKQd9PYA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79a9f7b22bbb9afe-GYE
+{"name":"jose","job":"QA","id":"498","createdAt":"2023-02-16T23:12:21.103Z"}
+
+18:12:21.775 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post-snipped.feature
+18:22:15.912 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:22:16.160 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676589736160
+18:22:16.192 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+18:22:17.502 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/users/delete/../post/user-post-snippets.feature - call by tag at line 4: Create
+18:22:18.302 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 26
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"jose","job":"QA"}
+
+18:22:19.300 [main]  DEBUG com.intuit.karate - response time in milliseconds: 998
+1 < 201
+1 < Date: Thu, 16 Feb 2023 23:22:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 76
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4c-x7ZE6CHIedsKi752QR4NLV1qnV8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=xGkAJrB6jP%2B6Lnh5d%2FC8%2B9Ivjm9TbINOalx%2Bq%2BTrfBrcPcoGl1BCklWFmHhkOGVlpVgKuoLXHxJeZoQznOl9LW2eX8iE59JBQVjoav6tSSz41Q6nNV6Rphlpfw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79aa064f58499af7-GYE
+{"name":"jose","job":"QA","id":"833","createdAt":"2023-02-16T23:22:19.768Z"}
+
+18:22:19.356 [main]  DEBUG com.intuit.karate - request:
+1 > DELETE https://reqres.in/api/users/contactId
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:22:19.996 [main]  DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 204
+1 < Date: Thu, 16 Feb 2023 23:22:20 GMT
+1 < Content-Length: 0
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tWk6iEAcOKiYaOFqUNi7EoJCj0BphhVTT50V05vvn%2FU7Zm%2FMra156RUUatfXcn7u9LMhH4aMLMiIkT4KAZejao2bLDSNg2onizgL4gKO2%2BQIl84qKVM1R2YtkQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 79aa0653daa5325e-GYE
+
+
+18:22:21.240 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/delete/user-delete.feature
+18:39:55.811 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:39:56.141 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676590796131
+18:39:56.171 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7
+18:39:58.161 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:39:59.060 [main]  DEBUG com.intuit.karate - response time in milliseconds: 890
+1 < 200
+1 < Date: Thu, 16 Feb 2023 23:39:59 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KRFvbWldRdKtjMilos2Wb2izjtiijUMaNSxIOsKp6xFSGiL9SgJUzO2oFUDjR6FF3nIkK0WhgtBg1aUe31F2yuovEXo1XasZOK%2B801Ds0fdck5EFnuz591kDHA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79aa202eee80325e-GYE
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:40:00.251 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+18:49:57.871 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:49:58.253 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676591398253
+18:49:58.314 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:50:00.293 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:50:00.974 [main]  DEBUG com.intuit.karate - response time in milliseconds: 670
+1 < 200
+1 < Date: Thu, 16 Feb 2023 23:50:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 602
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uyyhM0JuckEsLhN2YwJ7N8ePg7n%2F1o%2Ber7bphX%2FaCK4WohQGcOE8BOqwr7Nn8ZNoqjR0fNLHhqL5PZT1eU1RYSsYF3xacmMwuFGyc9KfMNAkHMepj7Cfm0epgA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79aa2ee3fce99af7-GYE
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:50:01.892 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+18:52:22.959 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:52:23.223 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676591543223
+18:52:23.247 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:52:25.231 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:52:26.063 [main]  DEBUG com.intuit.karate - response time in milliseconds: 832
+1 < 200
+1 < Date: Thu, 16 Feb 2023 23:52:26 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 747
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=K3dgDCAwVVGyM6MONxB3SHOTgRz9Le%2BF8SDyATiLRFw24SK6WuYzz%2FmZYam1CesJEmp1VLi8hsPPvPkil9Ey72cgduJVPFDh6%2B0ANVxiK9DWBZDLOFoKg%2FJpdg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79aa326d29319af8-GYE
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:52:27.103 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+18:54:30.741 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:54:31.047 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676591671039
+18:54:31.088 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:54:33.148 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:54:33.887 [main]  DEBUG com.intuit.karate - response time in milliseconds: 731
+1 < 200
+1 < Date: Thu, 16 Feb 2023 23:54:34 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 875
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KddBUpegaHi9MfxCEB0zm%2FQIEgdyvL1Ut07dcYBxpGD7QpmyagFQDjE5SQ5K3zeUc6WKg6uAJiAYl0QAaLzH%2FqGH6V3oeqpg7VfatDob7PNFa2ojYasa3OoJfQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79aa358c9adc9af7-GYE
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:54:33.935 [main]  ERROR com.intuit.karate - src/test/java/users/get/user-get.feature:18
+And match $ == jsonResponse
+match failed: EQUALS
+  $ | not equal | match failed for name: 'data' (MAP:MAP)
+  {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+  {"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"ichael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+    $.data | not equal | array match failed at index 0 (LIST:LIST)
+    [{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}]
+    [{"id":7,"email":"ichael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}]
+
+      $.data[0] | not equal | match failed for name: 'email' (MAP:MAP)
+      {"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"}
+      {"id":7,"email":"ichael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"}
+
+        $.data[0].email | not equal (STRING:STRING)
+        'michael.lawson@reqres.in'
+        'ichael.lawson@reqres.in'
+
+src/test/java/users/get/user-get.feature:18
+18:54:35.057 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+18:56:16.736 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+18:56:16.992 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676591776992
+18:56:17.016 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 13
+18:56:18.941 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users?page=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+18:56:19.495 [main]  DEBUG com.intuit.karate - response time in milliseconds: 554
+1 < 200
+1 < Date: Thu, 16 Feb 2023 23:56:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 981
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=s5b%2FFKK0sw89%2Bl7GmuNmGBRVaZKmPn%2Fb0gBzm1W%2FsC%2BWrKqf2DHJqNF19LsJ4oYx6PIE8h9FfJi32AkktCP20jsMKJI3WkQz4YuQtZubNy0xZfiiFE4QDnCdDw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 79aa382189109afe-GYE
+{"page":2,"per_page":6,"total":12,"total_pages":2,"data":[{"id":7,"email":"michael.lawson@reqres.in","first_name":"Michael","last_name":"Lawson","avatar":"https://reqres.in/img/faces/7-image.jpg"},{"id":8,"email":"lindsay.ferguson@reqres.in","first_name":"Lindsay","last_name":"Ferguson","avatar":"https://reqres.in/img/faces/8-image.jpg"},{"id":9,"email":"tobias.funke@reqres.in","first_name":"Tobias","last_name":"Funke","avatar":"https://reqres.in/img/faces/9-image.jpg"},{"id":10,"email":"byron.fields@reqres.in","first_name":"Byron","last_name":"Fields","avatar":"https://reqres.in/img/faces/10-image.jpg"},{"id":11,"email":"george.edwards@reqres.in","first_name":"George","last_name":"Edwards","avatar":"https://reqres.in/img/faces/11-image.jpg"},{"id":12,"email":"rachel.howell@reqres.in","first_name":"Rachel","last_name":"Howell","avatar":"https://reqres.in/img/faces/12-image.jpg"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+18:56:19.545 [main]  ERROR com.intuit.karate - src/test/java/users/get/user-get.feature:20
+And match $ == read("../json/list-of-users.jso")
+js failed:
+>>>>
+01: read("../json/list-of-users.jso")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Jaime\Documents\Portafolio\Proyectos Karate JA\src\test\java\users\get\..\json\list-of-users.jso (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:76)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/users/get/user-get.feature:20
+18:56:20.434 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/users/get/user-get.feature
+12:44:18.863 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:44:19.101 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676655859101
+12:44:19.117 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:44:20.887 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 137
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":1,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+12:44:21.554 [main]  DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 405
+1 < Date: Fri, 17 Feb 2023 17:44:22 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+12:44:21.554 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 667, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+12:44:22.340 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+12:45:47.847 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:45:48.063 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676655948063
+12:45:48.079 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:45:49.530 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 137
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1,"category":{"id":1,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":1,"name":"cooker"}],"status":"available"}
+
+12:45:50.147 [main]  DEBUG com.intuit.karate - response time in milliseconds: 617
+1 < 405
+1 < Date: Fri, 17 Feb 2023 17:45:50 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+12:45:50.147 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 617, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+12:45:50.819 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+12:46:34.509 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:46:34.714 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676655994714
+12:46:34.737 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+12:46:36.210 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 137
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":0,"name":"string"},"name":"tiger","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+12:46:36.748 [main]  DEBUG com.intuit.karate - response time in milliseconds: 538
+1 < 405
+1 < Date: Fri, 17 Feb 2023 17:46:37 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+12:46:36.748 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 538, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+12:46:37.475 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+15:21:28.929 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+15:21:29.245 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676665289243
+15:21:29.276 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+15:21:31.450 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 137
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":0,"category":{"id":0,"name":"string"},"name":"tiger","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"available"}
+
+15:21:32.206 [main]  DEBUG com.intuit.karate - response time in milliseconds: 752
+1 < 405
+1 < Date: Fri, 17 Feb 2023 20:21:33 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+15:21:32.214 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 752, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+15:21:33.239 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+15:27:31.276 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+15:27:31.611 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676665651610
+15:27:31.645 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+15:27:33.747 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1569875589,"category":{"id":0,"name":"Boxer"},"name":"tiger","photoUrls":["string"],"tags":[{"id":0,"name":"tiger"}],"status":"available"}
+
+15:27:34.519 [main]  DEBUG com.intuit.karate - response time in milliseconds: 770
+1 < 405
+1 < Date: Fri, 17 Feb 2023 20:27:35 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+15:27:34.523 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 770, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+15:27:35.500 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+15:29:02.026 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+15:29:02.276 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676665742275
+15:29:02.297 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+15:29:04.192 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 144
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":1569875589,"category":{"id":0,"name":"Boxer"},"name":"tiger","photoUrls":["string"],"tags":[{"id":0,"name":"tiger"}],"status":"available"}
+
+15:29:04.848 [main]  DEBUG com.intuit.karate - response time in milliseconds: 654
+1 < 405
+1 < Date: Fri, 17 Feb 2023 20:29:05 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+15:29:05.733 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+21:36:19.591 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+21:36:19.845 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676860579845
+21:36:19.876 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 3
+21:36:22.208 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 174
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":9223372016900012555,"category":{"id":6564867,"name":"Rabit1"},"name":"Flaffy1","photoUrls":[],"tags":[{"id":228584301,"name":"Brown milk colour"}],"status":"available"}
+
+21:36:23.327 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1119
+1 < 405
+1 < Date: Mon, 20 Feb 2023 02:36:23 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+21:36:23.342 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:7
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 1119, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/post/pet-post.feature:7
+21:36:24.647 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+22:22:25.568 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:22:25.953 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863345953
+22:22:25.984 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:22:27.892 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:22:28.800 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:22:30.070 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1270
+1 < 405
+1 < Date: Mon, 20 Feb 2023 03:22:30 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+22:22:30.086 [main]  ERROR com.intuit.karate - src/test/java/pets/get/../post/pet-post.feature:8
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 1270, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/get/../post/pet-post.feature:8
+22:22:30.086 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:3
+* call read("../post/pet-post.feature@AddPet")
+status code was: 405, expected: 200, response time in milliseconds: 1270, url: https://petstore.swagger.io/#/pet/addPet, response: 
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+src/test/java/pets/get/../post/pet-post.feature:8
+src/test/java/pets/get/pet-get.feature:3
+22:22:31.759 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:24:12.364 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:24:12.727 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863452727
+22:24:14.414 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:24:15.293 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:24:16.495 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1202
+1 < 405
+1 < Date: Mon, 20 Feb 2023 03:24:16 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+22:24:16.545 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/#/pet/getPetById/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:24:17.023 [main]  DEBUG com.intuit.karate - response time in milliseconds: 478
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:24:17 GMT
+1 < Content-Type: text/html
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Last-Modified: Tue, 07 Feb 2023 01:15:47 GMT
+1 < Vary: Accept-Encoding
+1 < ETag: "63e1a643-147"
+1 < Expires: Tue, 21 Feb 2023 03:24:17 GMT
+1 < Cache-Control: max-age=86400
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  </head>
+
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="./swagger-ui-bundle.js" charset="UTF-8"> </script>
+    <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
+    <script src="./swagger-initializer.js" charset="UTF-8"> </script>
+  </body>
+</html>
+
+
+22:24:17.023 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:6
+Then status 204
+status code was: 200, expected: 204, response time in milliseconds: 478, url: https://petstore.swagger.io/#/pet/getPetById/idPet, response: 
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  </head>
+
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="./swagger-ui-bundle.js" charset="UTF-8"> </script>
+    <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
+    <script src="./swagger-initializer.js" charset="UTF-8"> </script>
+  </body>
+</html>
+
+src/test/java/pets/get/pet-get.feature:6
+22:24:18.502 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:26:00.296 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:26:00.663 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863560663
+22:26:02.391 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:26:03.199 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:26:04.454 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1255
+1 < 405
+1 < Date: Mon, 20 Feb 2023 03:26:04 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+22:26:04.502 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/#/pet/getPetById/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:26:05.260 [main]  DEBUG com.intuit.karate - response time in milliseconds: 748
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:26:05 GMT
+1 < Content-Type: text/html
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Last-Modified: Tue, 07 Feb 2023 01:15:47 GMT
+1 < Vary: Accept-Encoding
+1 < ETag: "63e1a643-147"
+1 < Expires: Tue, 21 Feb 2023 03:26:05 GMT
+1 < Cache-Control: max-age=86400
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  </head>
+
+  <body>
+    <div id="swagger-ui"></div>
+    <script src="./swagger-ui-bundle.js" charset="UTF-8"> </script>
+    <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
+    <script src="./swagger-initializer.js" charset="UTF-8"> </script>
+  </body>
+</html>
+
+
+22:26:06.702 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:28:02.531 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:28:02.863 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863682863
+22:28:02.916 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:28:04.650 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:28:05.510 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:28:06.549 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1039
+1 < 405
+1 < Date: Mon, 20 Feb 2023 03:28:06 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+22:28:06.617 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:5
+And idPet = 999
+no step-definition method match found for: idPet = 999
+src/test/java/pets/get/pet-get.feature:5
+22:28:08.059 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:29:08.167 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:29:08.557 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863748557
+22:29:08.607 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:29:10.284 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:29:11.211 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/#/pet/addPet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:29:12.345 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1134
+1 < 405
+1 < Date: Mon, 20 Feb 2023 03:29:12 GMT
+1 < Content-Type: text/html
+1 < Content-Length: 150
+1 < Connection: keep-alive
+1 < Server: nginx
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, OPTIONS
+1 < Access-Control-Allow-Headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+22:29:12.407 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:29:13.235 [main]  DEBUG com.intuit.karate - response time in milliseconds: 828
+1 < 404
+1 < Date: Mon, 20 Feb 2023 03:29:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+
+22:29:13.250 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:6
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 828, url: https://petstore.swagger.io/v2/pet/idPet, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+src/test/java/pets/get/pet-get.feature:6
+22:29:14.765 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:31:18.211 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:31:18.556 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676863878556
+22:31:18.603 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:31:20.902 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/999
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:31:22.220 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1303
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:31:22 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:31:23.606 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:34:24.362 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:34:24.801 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864064801
+22:34:24.848 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:34:26.710 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:34:27.619 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:34:29.057 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1438
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:34:29 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:34:29.073 [main]  ERROR com.intuit.karate - src/test/java/pets/get/../post/pet-post.feature:8
+Then status 405
+status code was: 200, expected: 405, response time in milliseconds: 1438, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+22:34:29.073 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:3
+* call read("../post/pet-post.feature@AddPet")
+status code was: 200, expected: 405, response time in milliseconds: 1438, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+src/test/java/pets/get/pet-get.feature:3
+22:34:30.705 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:37:29.616 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:37:29.984 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864249968
+22:37:30.000 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:37:31.714 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:37:32.538 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:37:34.072 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1518
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:37:34 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:37:34.072 [main]  ERROR com.intuit.karate - src/test/java/pets/get/../post/pet-post.feature:8
+Then status 405
+status code was: 200, expected: 405, response time in milliseconds: 1518, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+22:37:34.072 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:3
+* call read("../post/pet-post.feature@AddPet")
+status code was: 200, expected: 405, response time in milliseconds: 1518, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+src/test/java/pets/get/pet-get.feature:3
+22:37:35.643 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:39:07.770 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:39:08.120 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864348120
+22:39:08.151 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:39:09.854 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:39:10.702 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:39:11.799 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1097
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:39:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:39:11.861 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:39:12.491 [main]  DEBUG com.intuit.karate - response time in milliseconds: 630
+1 < 404
+1 < Date: Mon, 20 Feb 2023 03:39:12 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+
+22:39:12.506 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:6
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 630, url: https://petstore.swagger.io/v2/pet/idPet, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+src/test/java/pets/get/pet-get.feature:6
+22:39:13.980 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:40:48.856 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:40:49.189 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864449189
+22:40:49.242 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:40:50.957 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:40:51.768 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:40:52.906 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1122
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:40:52 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:40:52.979 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:40:53.793 [main]  DEBUG com.intuit.karate - response time in milliseconds: 814
+1 < 404
+1 < Date: Mon, 20 Feb 2023 03:40:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+
+22:40:53.793 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:6
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 814, url: https://petstore.swagger.io/v2/pet/idPet, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+src/test/java/pets/get/pet-get.feature:6
+22:40:55.243 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:41:33.925 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:41:34.266 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864494266
+22:41:34.295 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:41:35.980 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:41:36.807 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:41:37.724 [main]  DEBUG com.intuit.karate - response time in milliseconds: 901
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:41:37 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:41:37.724 [main]  ERROR com.intuit.karate - src/test/java/pets/get/../post/pet-post.feature:8
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 901, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+22:41:37.740 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:3
+* call read("../post/pet-post.feature@AddPet")
+status code was: 200, expected: 404, response time in milliseconds: 901, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/get/../post/pet-post.feature:8
+src/test/java/pets/get/pet-get.feature:3
+22:41:39.145 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:42:10.672 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:42:11.000 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864531000
+22:42:11.026 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+22:42:13.315 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:42:14.454 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1139
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:42:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:42:14.469 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:8
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 1139, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/post/pet-post.feature:8
+22:42:15.933 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+22:43:09.416 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:43:09.749 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864589749
+22:43:12.220 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:43:12.937 [main]  DEBUG com.intuit.karate - response time in milliseconds: 717
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:43:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:43:12.959 [main]  ERROR com.intuit.karate - src/test/java/pets/post/pet-post.feature:8
+Then status 404
+status code was: 200, expected: 404, response time in milliseconds: 717, url: https://petstore.swagger.io/v2/pet, response: 
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+src/test/java/pets/post/pet-post.feature:8
+22:43:14.236 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+22:43:33.522 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:43:33.866 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864613859
+22:43:36.284 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:43:37.147 [main]  DEBUG com.intuit.karate - response time in milliseconds: 856
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:43:37 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:43:38.634 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/post/pet-post.feature
+22:44:24.810 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:44:25.148 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864665148
+22:44:25.163 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:44:27.448 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/999
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:44:29.278 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1830
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:44:29 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:44:30.734 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:45:15.628 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:45:15.964 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864715964
+22:45:16.011 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:45:17.671 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:45:18.489 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:45:19.476 [main]  DEBUG com.intuit.karate - response time in milliseconds: 987
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:45:19 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:45:19.561 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/idPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:45:19.894 [main]  DEBUG com.intuit.karate - response time in milliseconds: 333
+1 < 404
+1 < Date: Mon, 20 Feb 2023 03:45:20 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+
+22:45:19.894 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:6
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 333, url: https://petstore.swagger.io/v2/pet/idPet, response: 
+{"code":404,"type":"unknown","message":"java.lang.NumberFormatException: For input string: \"idPet\""}
+src/test/java/pets/get/pet-get.feature:6
+22:45:21.324 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+22:46:04.260 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+22:46:04.625 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676864764625
+22:46:04.661 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+22:46:06.400 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+22:46:07.335 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:46:09.408 [main]  DEBUG com.intuit.karate - response time in milliseconds: 2073
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:46:09 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:46:09.487 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/999
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:46:10.115 [main]  DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 200
+1 < Date: Mon, 20 Feb 2023 03:46:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+22:46:11.520 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:01:35.199 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:01:35.515 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676912495515
+12:01:35.546 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+12:01:36.919 [main]  ERROR com.intuit.karate - src/test/java/pets/put/pet-put.feature:4
+And Request {"id": 999,"category": {"id": 500,"name": "cooker"},"name": "tiger","photoUrls": ["string"],"tags": [{"id": 333, "name" : "color brown"}],"status": "sold"}
+no step-definition method match found for: Request {"id": 999,"category": {"id": 500,"name": "cooker"},"name": "tiger","photoUrls": ["string"],"tags": [{"id": 333, "name" : "color brown"}],"status": "sold"}
+src/test/java/pets/put/pet-put.feature:4
+12:01:37.937 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/put/pet-put.feature
+12:06:55.886 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:06:56.211 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676912816211
+12:06:56.241 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+12:06:57.827 [main]  ERROR com.intuit.karate - src/test/java/pets/put/pet-put.feature:4
+And Request {"id": 999,"category": {"id": 500,"name": "cooker"},"name": "tiger","photoUrls": ["string"],"tags": [{"id": 333, "name" : "color brown"}],"status": "sold"}
+no step-definition method match found for: Request {"id": 999,"category": {"id": 500,"name": "cooker"},"name": "tiger","photoUrls": ["string"],"tags": [{"id": 333, "name" : "color brown"}],"status": "sold"}
+src/test/java/pets/put/pet-put.feature:4
+12:06:59.086 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/put/pet-put.feature
+12:07:44.909 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:07:45.241 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676912865241
+12:07:45.279 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 2
+12:07:47.755 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:07:48.974 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1219
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:07:48 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:07:50.338 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/put/pet-put.feature
+12:19:48.845 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:19:49.177 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676913589177
+12:19:50.889 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+12:19:51.763 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:19:53.066 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1303
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:19:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:19:53.120 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/999
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:19:53.700 [main]  DEBUG com.intuit.karate - response time in milliseconds: 580
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:19:53 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:19:53.747 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:9
+* call read("../post/pet-put.feature@UpdatePet")
+js failed:
+>>>>
+01: read("../post/pet-put.feature@UpdatePet")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Jaime\Documents\Portafolio\Proyectos Karate JA\src\test\java\pets\get\..\post\pet-put.feature (El sistema no puede encontrar el archivo especificado)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.FeatureParser.parse(FeatureParser.java:70)
+- com.intuit.karate.core.Feature.read(Feature.java:63)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:65)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+src/test/java/pets/get/pet-get.feature:9
+12:19:55.297 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:23:05.723 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:23:06.077 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676913786077
+12:23:07.832 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../post/pet-post.feature - call by tag at line 4: AddPet
+12:23:08.664 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 148
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:23:09.861 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1197
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:23:09 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:23:09.930 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/999
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:23:10.448 [main]  DEBUG com.intuit.karate - response time in milliseconds: 518
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:23:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"candy","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"available"}
+
+12:23:10.479 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+12:23:10.501 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:23:11.281 [main]  DEBUG com.intuit.karate - response time in milliseconds: 780
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:23:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:23:11.281 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=statusPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:23:11.983 [main]  DEBUG com.intuit.karate - response time in milliseconds: 686
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:23:11 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+12:23:13.615 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:26:44.405 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:26:44.759 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914004759
+12:26:44.790 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+12:26:47.096 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:26:48.139 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1027
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:26:48 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":9223372036854646000,"category":{"id":0,"name":"string"},"name":"Cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854646002,"category":{"id":-36054349,"name":"deserunt in ad voluptate"},"name":"doggie","photoUrls":["aliquip in enim","ea labore minim"],"tags":[{"id":-77106092,"name":"est consectetur voluptate ut"},{"id":-87717453,"name":"officia ex"}],"status":"sold"},{"id":777,"category":{"id":888,"name":"This is my new category"},"name":"This is my new pet","tags":[],"status":"sold"},{"id":9223372036854646211,"category":{"id":0,"name":"doggie"},"name":"PatronII","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+12:26:49.627 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:28:12.297 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:28:12.645 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914092645
+12:28:12.676 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+12:28:14.331 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+12:28:15.152 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:28:16.339 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1187
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:28:16 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:28:16.386 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:11
+When method get
+java.net.URISyntaxException: Illegal character in query at index 55: https://petstore.swagger.io/v2/pet/findByStatus?status="statusPet"
+src/test/java/pets/get/pet-get.feature:11
+12:28:17.845 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:29:38.914 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:29:39.299 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914179283
+12:29:39.330 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+12:29:40.987 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+12:29:41.811 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:29:43.113 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1302
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:29:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:29:43.198 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=statusPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:29:43.816 [main]  DEBUG com.intuit.karate - response time in milliseconds: 618
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:29:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+12:29:45.265 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:33:14.167 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:33:14.530 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914394515
+12:33:14.563 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+12:33:16.629 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+12:33:17.486 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:33:18.738 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1237
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:33:18 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:33:18.818 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:33:19.866 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1048
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:33:19 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":9223372036854646000,"category":{"id":0,"name":"string"},"name":"Cat","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854646002,"category":{"id":-36054349,"name":"deserunt in ad voluptate"},"name":"doggie","photoUrls":["aliquip in enim","ea labore minim"],"tags":[{"id":-77106092,"name":"est consectetur voluptate ut"},{"id":-87717453,"name":"officia ex"}],"status":"sold"},{"id":777,"category":{"id":888,"name":"This is my new category"},"name":"This is my new pet","tags":[],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854646551,"category":{"id":-10928166,"name":"veniam in amet officia"},"name":"doggie","photoUrls":["Ut dolor nisi","consectetur nulla exercitation esse in"],"tags":[{"id":46174105,"name":"ipsum occaecat in cupidatat"},{"id":-97055673,"name":"dolor minim reprehenderit aliquip aliqua"}],"status":"sold"}]
+
+12:33:21.250 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:34:23.130 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:34:23.530 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914463530
+12:34:23.568 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+12:34:25.215 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+12:34:26.074 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:34:27.293 [main]  DEBUG com.intuit.karate - response time in milliseconds: 1219
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:34:27 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+12:34:27.362 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=statusPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+12:34:28.196 [main]  DEBUG com.intuit.karate - response time in milliseconds: 834
+1 < 200
+1 < Date: Mon, 20 Feb 2023 17:34:28 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+12:34:29.632 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+12:41:32.392 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:41:32.751 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676914892740
+12:44:08.423 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+12:44:08.786 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1676915048786
+13:09:02.257 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:09:02.503 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677002942502
+13:09:02.530 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 4
+13:09:04.240 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:09:04.906 [main]  DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:09:05 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:09:05.003 [main]  INFO  com.intuit.karate - [print] sold 
+13:09:05.766 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/put/pet-put.feature
+13:14:43.257 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:14:43.462 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677003283461
+13:14:43.483 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:14:44.505 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+13:14:45.010 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:14:45.674 [main]  DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:14:46 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:14:45.699 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=statusPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:14:46.008 [main]  DEBUG com.intuit.karate - response time in milliseconds: 309
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:14:46 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+13:14:46.692 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:15:40.965 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:15:41.165 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677003341164
+13:15:41.186 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:15:42.252 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+13:15:42.796 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:15:43.363 [main]  DEBUG com.intuit.karate - response time in milliseconds: 566
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:15:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:15:43.392 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=statusPet
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:15:43.700 [main]  DEBUG com.intuit.karate - response time in milliseconds: 307
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:15:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[]
+
+13:15:43.713 [main]  INFO  com.intuit.karate - [print] sold 
+13:15:44.402 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:17:58.874 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:17:59.083 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677003479082
+13:17:59.105 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:18:00.143 [main]  INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/pets/get/../put/pet-put.feature - call by tag at line 4: UpdatePet
+13:18:00.653 [main]  DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 143
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:18:01.326 [main]  DEBUG com.intuit.karate - response time in milliseconds: 670
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:18:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+
+13:18:01.351 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:18:01.783 [main]  DEBUG com.intuit.karate - response time in milliseconds: 432
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:18:02 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654210,"category":{"id":0,"name":"Fish"},"name":"NemoII","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}]
+
+13:18:01.794 [main]  INFO  com.intuit.karate - [print] sold 
+13:18:02.473 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:38:46.193 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:38:46.397 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/pets/get/pet-get.feature - mismatched input 'd' expecting <EOF>
+13:39:04.817 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:39:05.014 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/pets/get/pet-get.feature - mismatched input 'd' expecting <EOF>
+13:41:05.070 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:41:05.258 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/pets/get/pet-get.feature - mismatched input 'd' expecting <EOF>
+13:42:10.552 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:42:10.777 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677004930776
+13:42:10.805 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:42:12.451 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:42:13.105 [main]  DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:42:14 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":6479003,"category":{"id":-4830501,"name":"irure adipisicing e"},"name":"doggie","photoUrls":["sit elit","commodo quis pariatur cupidatat"],"tags":[{"id":-53025539,"name":"proident et reprehenderit"},{"id":76820909,"name":"labore ullamco"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":555,"category":{"id":0,"name":"Кабель"},"name":"Шарик","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+13:42:13.145 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:15
+And match resultado[5]== {id: 500}
+syntax error, expected '==' for match
+src/test/java/pets/get/pet-get.feature:15
+13:42:13.939 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:43:42.264 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:43:42.472 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677005022471
+13:43:42.492 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:43:43.872 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:43:44.495 [main]  DEBUG com.intuit.karate - response time in milliseconds: 620
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:43:45 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":6479003,"category":{"id":-4830501,"name":"irure adipisicing e"},"name":"doggie","photoUrls":["sit elit","commodo quis pariatur cupidatat"],"tags":[{"id":-53025539,"name":"proident et reprehenderit"},{"id":76820909,"name":"labore ullamco"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":555,"category":{"id":0,"name":"Кабель"},"name":"Шарик","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+13:43:44.523 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:15
+And match resultado[5]== {"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+syntax error, expected '==' for match
+src/test/java/pets/get/pet-get.feature:15
+13:43:45.205 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:45:10.759 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:45:10.965 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677005110964
+13:45:10.985 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:45:12.363 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:45:13.011 [main]  DEBUG com.intuit.karate - response time in milliseconds: 645
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:45:13 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":6479003,"category":{"id":-4830501,"name":"irure adipisicing e"},"name":"doggie","photoUrls":["sit elit","commodo quis pariatur cupidatat"],"tags":[{"id":-53025539,"name":"proident et reprehenderit"},{"id":76820909,"name":"labore ullamco"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":555,"category":{"id":0,"name":"Кабель"},"name":"Шарик","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+13:45:13.042 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:15
+And match resultado[3]== {"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}
+syntax error, expected '==' for match
+src/test/java/pets/get/pet-get.feature:15
+13:45:13.726 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:45:41.777 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:45:41.993 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677005141992
+13:45:42.014 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:45:43.429 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:45:43.970 [main]  DEBUG com.intuit.karate - response time in milliseconds: 539
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:45:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":6479003,"category":{"id":-4830501,"name":"irure adipisicing e"},"name":"doggie","photoUrls":["sit elit","commodo quis pariatur cupidatat"],"tags":[{"id":-53025539,"name":"proident et reprehenderit"},{"id":76820909,"name":"labore ullamco"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":555,"category":{"id":0,"name":"Кабель"},"name":"Шарик","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+13:45:44.001 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:15
+And match $== resultado
+syntax error, expected '==' for match
+src/test/java/pets/get/pet-get.feature:15
+13:45:44.682 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+13:47:41.245 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+13:47:41.454 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1677005261453
+13:47:41.473 [main]  INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 8
+13:47:42.855 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:47:43.485 [main]  DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 200
+1 < Date: Tue, 21 Feb 2023 18:47:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+[{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"},{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":3708840,"category":{"id":9855812,"name":"Duis in commodo"},"name":"doggie","photoUrls":["minim id in sit","est esse culpa nisi"],"tags":[{"id":-89808508,"name":"sit"},{"id":-5238278,"name":"dolor in"}],"status":"sold"},{"id":6479003,"category":{"id":-4830501,"name":"irure adipisicing e"},"name":"doggie","photoUrls":["sit elit","commodo quis pariatur cupidatat"],"tags":[{"id":-53025539,"name":"proident et reprehenderit"},{"id":76820909,"name":"labore ullamco"}],"status":"sold"},{"id":91507602,"category":{"id":-95494262,"name":"sit ea"},"name":"doggie","photoUrls":["deserunt","id sint et"],"tags":[{"id":-54029842,"name":"ullamco"},{"id":13198949,"name":"id"}],"status":"sold"},{"id":24093935,"category":{"id":-6714225,"name":"do magna"},"name":"doggie","photoUrls":["aute","velit"],"tags":[{"id":71561130,"name":"deserunt ut occaecat"},{"id":-1195842,"name":"nulla nostrud occaeca"}],"status":"sold"},{"id":3903023,"category":{"id":-56789506,"name":"cillum p"},"name":"doggie","photoUrls":["aliquip Excepteur","commodo dolore consequat eu"],"tags":[{"id":60937326,"name":"irure in"},{"id":20218536,"name":"sint consectetur ad voluptate"}],"status":"sold"},{"id":555,"category":{"id":0,"name":"Кабель"},"name":"Шарик","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"}]
+
+13:47:43.516 [main]  ERROR com.intuit.karate - src/test/java/pets/get/pet-get.feature:14
+And match $== [{"id":13,"category":{"id":0,"name":"cats"},"photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":70,"category":{"id":2,"name":"animal"},"name":"dog","photoUrls":["photoUrls"],"tags":[{"id":1,"name":"home"}],"status":"sold"},{"id":9223372036854654210,"category":{"id":0,"name":"Fish"},"name":"NemoII","photoUrls":["string"],"tags":[{"id":0,"name":"string"}],"status":"sold"},{"id":9223372036854654274,"category":{"id":42892111,"name":"dolore laboris exercitation enim"},"name":"doggie","photoUrls":["enim do amet et","in incididunt nulla"],"tags":[{"id":13217034,"name":"Duis in"},{"id":-1050560,"name":"occaecat nulla et Duis"}],"status":"sold"},{"id":9223372036854654275,"category":{"id":-19816953,"name":"officia"},"name":"doggie","photoUrls":["aute do","aliquip"],"tags":[{"id":-7497000,"name":"velit dolore deserunt nostrud"},{"id":61724686,"name":"consequat voluptate pariatur adipisicing aliquip"}],"status":"sold"},{"id":999,"category":{"id":500,"name":"cooker"},"name":"tiger","photoUrls":["string"],"tags":[{"id":333,"name":"color brown"}],"status":"sold"}]
+syntax error, expected '==' for match
+src/test/java/pets/get/pet-get.feature:14
+13:47:44.203 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/pets/get/pet-get.feature
+10:07:27.102 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+10:07:27.331 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1685977647328
+10:07:29.022 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"diany","job":"designer"}
+
+10:07:29.821 [main]  DEBUG com.intuit.karate - response time in milliseconds: 799
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:29 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-f4wYshTYvkqq9e8r8PvbDAK5ulE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZytGn3X9D%2FvXgs9ILEu1xYJQTv5aOQsk9U8KxOkGuKMUcEYmZWnEhkTFxJYnjaJ%2FaA9yQ3UislGU%2FFQDKIXJfycL1iROssXe95DtcBWnxCP1m2GeFoUypgZ1Tw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d295353e98e9afb-GYE
+{"name":"diany","job":"designer","id":"720","createdAt":"2023-06-05T15:07:29.628Z"}
+
+10:07:29.837 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 34
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"cecilia","job":"teacher"}
+
+10:07:30.271 [main]  DEBUG com.intuit.karate - response time in milliseconds: 434
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 84
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"54-4uPF6usaD3ZN890UdyuwigywkSM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LOIwVEgGUfUnuFYCMeTASjXd7UpxDaATamE7rtrHk%2Bjp%2Bu5OM%2BYiAOHdoMXhmdwOchp8bmNG2Tdo%2B45BQLg6kPWw%2FAiW%2FT59NTe9Pqb0gNBFLIgI0Xhc0RlfTg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d2953574f0c9afb-GYE
+{"name":"cecilia","job":"teacher","id":"695","createdAt":"2023-06-05T15:07:30.088Z"}
+
+10:07:30.290 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"#(name)","job":"#(job)"}
+
+10:07:30.717 [main]  DEBUG com.intuit.karate - response time in milliseconds: 427
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-wqWHnAf2tzB6stKZwRyANuGfaCE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O5QDEIQqdaqZ21XOtUvXwKW4%2Fg2OaX99U4LLTs%2BR6XAKBJrVHIqXj8bWFlq6CPLCCxoPV4FHCVuSrCLRhhtEa5qN7HQxJ4WGFzQgjR%2Fb%2BsZAYUwmMVKTdPj4Zw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d295359ffc59af7-GYE
+{"name":"#(name)","job":"#(job)","id":"296","createdAt":"2023-06-05T15:07:30.518Z"}
+
+10:07:30.727 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 28
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"luis","job":"chef"}
+
+10:07:31.177 [main]  DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 78
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4e-1yEUX6Sx2iMkrX+k5LrbAnMTWIc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=RBQB51YD3GsCt687ubfWEY5C5C9ph1UIK1canSPeC5jHROug9KWuujbS1j125hKngp1sP4Ck%2BDghFezmrGzR3Rhs8TvmoSJn4wJqyJXn1opmDXGSi3h9Th%2B1Rg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d29535ccdea325e-GYE
+{"name":"luis","job":"chef","id":"546","createdAt":"2023-06-05T15:07:30.984Z"}
+
+10:07:31.177 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 28
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"sofia","job":"ceo"}
+
+10:07:31.590 [main]  DEBUG com.intuit.karate - response time in milliseconds: 413
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 78
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"4e-5CQSPh9w4WG1QzK31WgUk9A6ruI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Ugi9a%2FY2ntjHif70wNXTCQhtdBpBxfjRoQhOJVENzlHD2Eg7JGFxBAFnxP7dtgfkvHX6eYPg%2FI5ZRGUNylWYdF25uh7ROjrgzf4P2cISYhXhafBsna6LYJxmKw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d29535f98749af7-GYE
+{"name":"sofia","job":"ceo","id":"632","createdAt":"2023-06-05T15:07:31.408Z"}
+
+10:07:31.608 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 33
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"leonela","job":"lawyer"}
+
+10:07:32.141 [main]  DEBUG com.intuit.karate - response time in milliseconds: 533
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 83
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"53-bvZv5NcfqViDUMW5qsrAm413c38"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XNeOjEfT8u4mR8Xy6E8SYcPHI%2BS82ds1Efk6T6GMQdPxRe64wP9koKcUCWk5dYRBG7uvYpmQHOQUkrA%2FQLSBiNQsAiLQ%2Bztz9axewpvdH97aowNohmQUne1uPA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d2953624df83262-GYE
+{"name":"leonela","job":"lawyer","id":"798","createdAt":"2023-06-05T15:07:31.942Z"}
+
+10:07:32.141 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 15
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"juan"}
+
+10:07:32.580 [main]  DEBUG com.intuit.karate - response time in milliseconds: 439
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 65
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"41-yMhp/xrlhCGkFnw6coLSyhxQCKU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NoyIa%2BwIMquSRvzXzJcYjHX9dP79w8B50pZaRCFOFGFBY8WP4c0K9oFtiuShNhKgq3yCZxC4gnT33wKodyotfAgPWSQan3hA81IOQZIFcgnGcCDeaniJxlCliQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d295365abd59afb-GYE
+{"name":"juan","id":"841","createdAt":"2023-06-05T15:07:32.387Z"}
+
+10:07:32.590 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 31
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"name":"&^%&*","job":"leader"}
+
+10:07:33.025 [main]  DEBUG com.intuit.karate - response time in milliseconds: 435
+1 < 201
+1 < Date: Mon, 05 Jun 2023 15:07:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 81
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"51-Nn7d8I4Cths4rkmAVfnKmRIAOKY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mUVKAbqaUqVLYtLVv30dnTsq7TW0l7XFSCxYrGM8ioSVUhHFeIoB63B8fo0fRhFSj%2BIcBHet6sr%2B0zrMfdnnsbOASG15VX22CpwhrJB91NCwIUpSITNBuniejg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 7d2953685d893262-GYE
+{"name":"&^%&*","job":"leader","id":"100","createdAt":"2023-06-05T15:07:32.825Z"}
+
+10:07:33.805 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/users/post/user-post.feature
+11:07:58.108 [main]  INFO  com.intuit.karate - Karate version: 1.3.1
+11:07:58.331 [main]  ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/users/put/user-put.feature - extraneous input ''' expecting <EOF>
